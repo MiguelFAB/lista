@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Lista de Alunos</title>
+</head>
+<body>
+    <center>
+    <h1 class="textoNomesAlunos">Lista de Alunos</h1>
+    <div id="rows"> 
+    <input type="text" placeholder="Bote o Nome Aqui" id="name1">
+    <button onclick="submit()" id="submitButton">Enviar</button>  
+    <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <hr>
+   </div>
+   <div id="displayName"></div>
+    <hr>
+
+    <div id="show1">
+        <h3 id="hd1">Lista de Convidados</h3>
+        <button onclick="show()" id="show">Mostra</button>  
+        <p id="p1"></p>
+        <button onclick="sorting()" id="sortButton">Lista Organizada</button> 
+        <div id="sorted"></div> 
+    </div>
+    <hr>
+    <input type="text" placeholder="Pesquisar Nome" id="s1">&nbsp;
+    <button onclick="surching()" id="srch">Pesquisar</button>
+    <p id="p2"></p>
+    </center>
+</body>
+</html>
